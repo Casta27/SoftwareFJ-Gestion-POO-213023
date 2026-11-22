@@ -1,7 +1,8 @@
 # Sistema Integral de Gestión de Clientes, Servicios y Reservas – Software FJ
 
 **Autor:** Gedinson Castaño Santa  
-**Curso:** Programación (213023) – Fase 4: Componente Práctico  
+**Curso:** Programación (213023) 
+ Fase 4: Componente Práctico  
 
 > **Nota sobre la entrega:** Proyecto desarrollado e implementado de manera individual debido a que los demás integrantes asignados al grupo colaborativo no establecieron comunicación ni realizaron aportes durante el desarrollo de la actividad.
 
