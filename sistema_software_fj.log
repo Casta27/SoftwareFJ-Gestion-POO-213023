@@ -1,0 +1,24 @@
+[2026-11-22 14:21:52] [INFO] === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+[2026-11-22 14:21:52] [INFO] Cliente registrado exitosamente: Cliente [C001]: Gedinson Castaño | Email: gedinson@softwarefj.com | Tel: 3105551234
+[2026-11-22 14:21:52] [INFO] Cliente registrado exitosamente: Cliente [C002]: Laura Gómez | Email: laura.gomez@empresa.co | Tel: 3209876543
+[2026-11-22 14:21:52] [ERROR] Fallo al registrar cliente (C003): El correo electrónico 'carlos.correo.invalido' no tiene un formato válido.
+[2026-11-22 14:21:52] [INFO] Servicio registrado: [S001] Sala Innovación A | Tarifa base: $80,000.00 | Estado: Disponible
+[2026-11-22 14:21:52] [INFO] Servicio registrado: [S002] Portátil Workstation Dell | Tarifa base: $65,000.00 | Estado: Disponible
+[2026-11-22 14:21:52] [INFO] Servicio registrado: [S003] Consultoría Arquitectura Cloud | Tarifa base: $120,000.00 | Estado: Disponible
+[2026-11-22 14:21:52] [INFO] Servicio registrado: [S004] Sala Auditorio B | Tarifa base: $150,000.00 | Estado: No disponible
+[2026-11-22 14:21:52] [ERROR] Creación de servicio bloqueada: La tarifa base debe ser mayor a cero.
+[2026-11-22 14:21:52] [INFO] Reserva R001 CONFIRMADA. Total: $345,100.00
+[2026-11-22 14:21:52] [DEBUG] Intento de transacción finalizado para ID: R001
+[2026-11-22 14:21:52] [ERROR] Fallo en reserva (R002): ReservaInvalidaError -> La sala 'Sala Innovación A' soporta máximo 10 personas (solicitadas: 15).
+[2026-11-22 14:21:52] [DEBUG] Intento de transacción finalizado para ID: R002
+[2026-11-22 14:21:52] [INFO] Reserva R003 CONFIRMADA. Total: $678,300.00
+[2026-11-22 14:21:52] [DEBUG] Intento de transacción finalizado para ID: R003
+[2026-11-22 14:21:52] [ERROR] Fallo en reserva (R004): ServicioNoDisponibleError -> Stock insuficiente para 'Portátil Workstation Dell'. Disponible: 1, Solicitado: 2.
+[2026-11-22 14:21:52] [DEBUG] Intento de transacción finalizado para ID: R004
+[2026-11-22 14:21:52] [ERROR] Fallo en reserva (R005): ServicioNoDisponibleError -> El servicio 'Sala Auditorio B' no se encuentra disponible.
+[2026-11-22 14:21:52] [DEBUG] Intento de transacción finalizado para ID: R005
+[2026-11-22 14:21:52] [INFO] Reserva R006 CONFIRMADA. Total: $304,640.00
+[2026-11-22 14:21:52] [DEBUG] Intento de transacción finalizado para ID: R006
+[2026-11-22 14:21:52] [WARNING] Reserva R003 CANCELADA por solicitud.
+[2026-11-22 14:21:52] [ERROR] Intento inválido de cancelación: La reserva R003 ya estaba cancelada.
+[2026-11-22 14:21:52] [INFO] === FIN DE EJECUCIÓN SIN INTERRUPCIONES ===
